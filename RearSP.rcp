@@ -1,0 +1,814 @@
+{
+  "rcpCfg": {
+    "analogCfg": {
+      "0": {
+        "alpha": 1.0,
+        "map": {
+          "raw": [
+            0.0,
+            1.25,
+            2.5,
+            3.75,
+            5.0
+          ],
+          "scal": [
+            0.0,
+            25.0,
+            50.0,
+            75.0,
+            100.0
+          ]
+        },
+        "max": 1023,
+        "min": 0,
+        "nm": "SP_RF",
+        "offset": 0.0,
+        "prec": 0,
+        "scalMod": 0,
+        "scaling": 1.0,
+        "sr": 100,
+        "ut": ""
+      },
+      "1": {
+        "alpha": 1.0,
+        "map": {
+          "raw": [
+            0.0,
+            1.25,
+            2.5,
+            3.75,
+            5.0
+          ],
+          "scal": [
+            0.0,
+            64.0,
+            128.0,
+            192.0,
+            255.0
+          ]
+        },
+        "max": 1023,
+        "min": 0,
+        "nm": "SP_LF",
+        "offset": 0.0,
+        "prec": 0,
+        "scalMod": 2,
+        "scaling": 1.0,
+        "sr": 100,
+        "ut": ""
+      },
+      "2": {
+        "alpha": 1.0,
+        "map": {
+          "raw": [
+            0.0,
+            1.25,
+            2.5,
+            3.75,
+            5.0
+          ],
+          "scal": [
+            0.0,
+            64.0,
+            128.0,
+            192.0,
+            255.0
+          ]
+        },
+        "max": 1023,
+        "min": 0,
+        "nm": "SP_RB",
+        "offset": 0.0,
+        "prec": 0,
+        "scalMod": 2,
+        "scaling": 1.0,
+        "sr": 100,
+        "ut": ""
+      },
+      "3": {
+        "alpha": 1.0,
+        "map": {
+          "raw": [
+            0.0,
+            1.25,
+            2.5,
+            3.75,
+            5.0
+          ],
+          "scal": [
+            0.0,
+            64.0,
+            128.0,
+            192.0,
+            255.0
+          ]
+        },
+        "max": 1023,
+        "min": 0,
+        "nm": "SP_LB",
+        "offset": 0.0,
+        "prec": 0,
+        "scalMod": 2,
+        "scaling": 1.0,
+        "sr": 100,
+        "ut": ""
+      },
+      "4": {
+        "alpha": 1.0,
+        "map": {
+          "raw": [
+            0.0,
+            1.25,
+            2.5,
+            3.75,
+            5.0
+          ],
+          "scal": [
+            0.0,
+            1.25,
+            2.5,
+            3.75,
+            5.0
+          ]
+        },
+        "max": 1023,
+        "min": 0,
+        "nm": "CVTTemp",
+        "offset": 0.0,
+        "prec": 0,
+        "scalMod": 1,
+        "scaling": 1.0,
+        "sr": 100,
+        "ut": ""
+      },
+      "5": {
+        "alpha": 1.0,
+        "map": {
+          "raw": [
+            0.0,
+            1.25,
+            2.5,
+            3.75,
+            5.0
+          ],
+          "scal": [
+            0.0,
+            1.25,
+            2.5,
+            3.75,
+            5.0
+          ]
+        },
+        "max": 5.0,
+        "min": 0.0,
+        "nm": "Analog6",
+        "offset": 0.0,
+        "prec": 2,
+        "scalMod": 1,
+        "scaling": 1.0,
+        "sr": 0,
+        "ut": "Volts"
+      },
+      "6": {
+        "alpha": 1.0,
+        "map": {
+          "raw": [
+            0.0,
+            1.25,
+            2.5,
+            3.75,
+            5.0
+          ],
+          "scal": [
+            0.0,
+            1.25,
+            2.5,
+            3.75,
+            5.0
+          ]
+        },
+        "max": 5.0,
+        "min": 0.0,
+        "nm": "Analog7",
+        "offset": 0.0,
+        "prec": 2,
+        "scalMod": 1,
+        "scaling": 1.0,
+        "sr": 0,
+        "ut": ""
+      },
+      "7": {
+        "alpha": 1.0,
+        "map": {
+          "raw": [
+            0.0,
+            1.25,
+            2.5,
+            3.75,
+            5.0
+          ],
+          "scal": [
+            0.0,
+            1.25,
+            2.5,
+            3.75,
+            5.0
+          ]
+        },
+        "max": 20.0,
+        "min": 0.0,
+        "nm": "Battery",
+        "offset": 0.0,
+        "prec": 2,
+        "scalMod": 1,
+        "scaling": 1.0,
+        "sr": 0,
+        "ut": "Volts"
+      },
+      "8": {
+        "alpha": 1.0,
+        "map": {
+          "raw": [
+            0.0,
+            1.25,
+            2.5,
+            3.75,
+            5.0
+          ],
+          "scal": [
+            0.0,
+            1.25,
+            2.5,
+            3.75,
+            5.0
+          ]
+        },
+        "max": 20.0,
+        "min": 0.0,
+        "nm": "Battery",
+        "offset": 0.0,
+        "prec": 2,
+        "scalMod": 1,
+        "scaling": 1.0,
+        "sr": 1,
+        "ut": "Volts"
+      }
+    },
+    "canCfg": {
+      "baud": [
+        250000,
+        250000
+      ],
+      "en": 1,
+      "term": [
+        0,
+        0
+      ]
+    },
+    "canChanCfg": {
+      "chans": [],
+      "en": 0
+    },
+    "capabilities": {
+      "channels": {
+        "analog": 9,
+        "can": 2,
+        "canChan": 100,
+        "gpio": 3,
+        "imu": 7,
+        "pwm": 0,
+        "timer": 4
+      },
+      "db": {
+        "script": 16384,
+        "tracks": 160
+      },
+      "flags": [
+        "activetrack",
+        "adc",
+        "bt",
+        "can",
+        "can_term",
+        "cell",
+        "gpio",
+        "gps",
+        "imu",
+        "lua",
+        "obd2",
+        "telemstream",
+        "timer",
+        "tracks",
+        "usb",
+        "wifi"
+      ],
+      "sampleRates": {
+        "gps": 50,
+        "sensor": 1000
+      }
+    },
+    "connCfg": {
+      "btCfg": {
+        "btEn": 1,
+        "name": "",
+        "pass": ""
+      },
+      "cellCfg": {
+        "apnHost": "epc.tmobile.com",
+        "apnPass": "",
+        "apnUser": "",
+        "cellEn": 0
+      },
+      "telCfg": {
+        "bgStream": 1,
+        "deviceId": ""
+      }
+    },
+    "gpioCfg": {
+      "0": {
+        "max": 1.0,
+        "min": 0.0,
+        "mode": 0,
+        "nm": "GPIO1",
+        "prec": 1,
+        "sr": 0,
+        "ut": ""
+      },
+      "1": {
+        "max": 1.0,
+        "min": 0.0,
+        "mode": 0,
+        "nm": "GPIO2",
+        "prec": 1,
+        "sr": 0,
+        "ut": ""
+      },
+      "2": {
+        "max": 1,
+        "min": 0,
+        "mode": 0,
+        "nm": "GPIO3",
+        "prec": 0,
+        "sr": 0,
+        "ut": ""
+      }
+    },
+    "gpsCfg": {
+      "alt": 1,
+      "dist": 1,
+      "dop": 1,
+      "pos": 1,
+      "qual": 1,
+      "sats": 1,
+      "speed": 1,
+      "sr": 25
+    },
+    "imuCfg": {
+      "0": {
+        "alpha": 0.1,
+        "chan": 0,
+        "max": 3.0,
+        "min": -3.0,
+        "mode": 1,
+        "nm": "AccelX",
+        "prec": 2,
+        "sr": 100,
+        "ut": "G",
+        "zeroVal": 45
+      },
+      "1": {
+        "alpha": 0.1,
+        "chan": 1,
+        "max": 3.0,
+        "min": -3.0,
+        "mode": 1,
+        "nm": "AccelY",
+        "prec": 2,
+        "sr": 100,
+        "ut": "G",
+        "zeroVal": 355
+      },
+      "2": {
+        "alpha": 0.1,
+        "chan": 2,
+        "max": 3.0,
+        "min": -3.0,
+        "mode": 1,
+        "nm": "AccelZ",
+        "prec": 2,
+        "sr": 100,
+        "ut": "G",
+        "zeroVal": 523
+      },
+      "3": {
+        "alpha": 0.1,
+        "chan": 3,
+        "max": 120,
+        "min": -120,
+        "mode": 1,
+        "nm": "Yaw",
+        "prec": 0,
+        "sr": 100,
+        "ut": "Deg/Sec",
+        "zeroVal": -1
+      },
+      "4": {
+        "alpha": 0.1,
+        "chan": 4,
+        "max": 120,
+        "min": -120,
+        "mode": 1,
+        "nm": "Pitch",
+        "prec": 0,
+        "sr": 100,
+        "ut": "Deg/Sec",
+        "zeroVal": -12
+      },
+      "5": {
+        "alpha": 0.1,
+        "chan": 5,
+        "max": 120,
+        "min": -120,
+        "mode": 1,
+        "nm": "Roll",
+        "prec": 0,
+        "sr": 100,
+        "ut": "Deg/Sec",
+        "zeroVal": -17
+      }
+    },
+    "lapCfg": {
+      "currentLap": {
+        "max": 0,
+        "min": 0,
+        "nm": "CurrentLap",
+        "prec": 0,
+        "sr": 0,
+        "ut": ""
+      },
+      "elapsedTime": {
+        "max": 0,
+        "min": 0,
+        "nm": "ElapsedTime",
+        "prec": 4,
+        "sr": 0,
+        "ut": "Min"
+      },
+      "lapCount": {
+        "max": 0,
+        "min": 0,
+        "nm": "LapCount",
+        "prec": 0,
+        "sr": 0,
+        "ut": ""
+      },
+      "lapTime": {
+        "max": 0,
+        "min": 0,
+        "nm": "LapTime",
+        "prec": 4,
+        "sr": 0,
+        "ut": "Min"
+      },
+      "predTime": {
+        "max": 0,
+        "min": 0,
+        "nm": "PredTime",
+        "prec": 4,
+        "sr": 0,
+        "ut": "Min"
+      },
+      "sector": {
+        "max": 0,
+        "min": 0,
+        "nm": "Sector",
+        "prec": 0,
+        "sr": 0,
+        "ut": ""
+      },
+      "sectorTime": {
+        "max": 0,
+        "min": 0,
+        "nm": "SectorTime",
+        "prec": 4,
+        "sr": 0,
+        "ut": "Min"
+      }
+    },
+    "obd2Cfg": {
+      "en": 0,
+      "pids": []
+    },
+    "pwmCfg": {
+      "0": {
+        "logMode": 0,
+        "max": 1000,
+        "min": -1000,
+        "nm": "Unknown",
+        "outMode": 0,
+        "prec": 0,
+        "sr": 0,
+        "stDutyCyc": 0,
+        "stPeriod": 0,
+        "ut": ""
+      },
+      "1": {
+        "logMode": 0,
+        "max": 1000,
+        "min": -1000,
+        "nm": "Unknown",
+        "outMode": 0,
+        "prec": 0,
+        "sr": 0,
+        "stDutyCyc": 0,
+        "stPeriod": 0,
+        "ut": ""
+      },
+      "2": {
+        "logMode": 0,
+        "max": 1000,
+        "min": -1000,
+        "nm": "Unknown",
+        "outMode": 0,
+        "prec": 0,
+        "sr": 0,
+        "stDutyCyc": 0,
+        "stPeriod": 0,
+        "ut": ""
+      },
+      "3": {
+        "logMode": 0,
+        "max": 1000,
+        "min": -1000,
+        "nm": "Unknown",
+        "outMode": 0,
+        "prec": 0,
+        "sr": 0,
+        "stDutyCyc": 0,
+        "stPeriod": 0,
+        "ut": ""
+      }
+    },
+    "scriptCfg": {
+      "data": "setTickRate(10)\nflag = addChannel(\"Driver\", 100, 0, 0, 1, \"Mikes\")\nsetChannel(flag, 0)\nstartLogging()\nresetTime = 0\nhasSecondPast = 20\nreferenceTime = 0\ndispTime = true \n\n--Option Numbers:\n--1 - Total Distance Traveled \n--2 - Lap Count\n--3 - Lap Time\n--4 - Predicted Lap Time\n--5 - Logging On/Off\n--6 - X-Axis G-Force\n--7 - Y-Axis G-Force\n--8 - Z-Axis G-Force\n--9 - Yaw Deg/s\n--10 - Pitch Deg/s \n--11 - Roll Deg/s\n--12 - Engine RPM\n--13 - Wheel RPM\n--14 - CVT Temperature\noptions = {1, 6, 7, 8}\ni = 0\nupdate = 0\n\nfunction displayTime()\n data = getGpsSec() - referenceTime\n\n    seconds = math.floor(data % 60)\n    data = data / 60  \n    minutes = math.floor(data % 60)\n    data = data / 60\n    hours = math.floor(data)\n        \n    time = {hours, minutes, seconds}\n    txCAN(0, 0xDD, 0, time)\nend\n\nfunction updateDash()\n    if update == 0 then\n        i = i + 1\n        option = options[i]\n        vtype = 0\n\n        if option == 1 then\n            data = getGpsDist()\n            vtype = 2\n        elseif option == 2 then\n            data = getLapCount()\n        elseif option == 3 then\n            data = getLapTime()\n            vtype = 3\n        elseif option == 4 then\n            data = getPredTime()\n            vtype = 3\n        elseif option == 5 then\n            data = isLogging()\n        elseif option == 6 then\n            data = getImu(0)\n            vtype = 2\n        elseif option == 7 then\n            data = getImu(1)\n            vtype = 2\n        elseif option == 8 then\n            data = getImu(2)\n            vtype = 2\n        elseif option == 9 then\n            data = getImu(3)\n            vtype = 2\n        elseif option == 10 then\n            data = getImu(4)\n            vtype = 2\n        elseif option == 11 then\n            data = getImu(5)\n            vtype = 2\n        elseif option == 12 then\n            data = getTimerRpm(0)\n        elseif option == 13 then\n            data = getTimerRpm(1)\n        elseif option == 14 then\n            data = getAnalog(4)\n        end\n\n        if vtype == 1 then        -- Move decimal point one place\n            data = data * 10\n        elseif vtype == 2 then   -- Move decimal point two places\n            data = data * 100\n        elseif vtype == 3 then   -- Time Functions\n            seconds = math.floor(data % 60)\n            data = data / 60  \n            minutes = math.floor(data % 60)\n            data = data / 60\n            hours = math.floor(data)\n        \n            time = {hours, minutes, seconds}\n        end\n\n        data = math.floor(data)        -- This makes them all integers, supposedly\n\n        data1 = bit.rshift(bit.band(data, 0xFF00), 8)   -- Parsing the values into multiple bits\n        data2 = bit.band(data, 0xFF)\n        msg = {data1, data2, option} -- Message to be sent\n\n        if i == #options then       -- Reset the index if it gets too high\n            i = 0\n        end\n\n    --println(\"Sending Dash Message)\n        -- Sending the Message\n        if vtype == 0 then        -- Normal Integer\n            txCAN(0, 0x55, 0, msg)\n        elseif vtype == 1 then   -- Single Deciaml Place\n            txCAN(0,0xBB, 0, msg)\n        elseif vtype == 2 then   -- Two Decimal Places\n            txCAN(0, 0xCC, 0, msg)\n        elseif vtype == 3 then   -- Time Funcitons\n            txCAN(0, 0xDD, 0, time)\n        end\n    end\n\n    update = update + 1    \n    if update == 25 then       -- Should be 2.5 seconds per message\n        update = 0\n    end\nend\n\nfunction updateSpeed()\n    msg = {getGpsSpeed()}\n--println(\"Sending speed\")\n    txCAN(0, 0xEE, 0, msg)\nend\n\nfunction onTick()\n    --println(\"Does this work?\")\n    updateSpeed()\n    id, ext, data = rxCAN(0, 0) -- If this doesn't work, then set the second number to 100\n    if id == nil then\n        setChannel(flag, 0)\n    elseif id == 0x50 then\n        resetTime = resetTime + 1\n        setChannel(flag, 1)\n    elseif id == 0x32 then\n        stopLogging()\n    elseif id == 0x26 then\n        startLogging()\n elseif id == 0x40 then\n  dispTime = false\n elseif id == 0x44 then\n  dispTime = true\n    end\n\n if dispTime then\n  displayTime()\n else\n  updateDash()\n end\n\n    if resetTime > 0 then\n        hasSecondPast = hasSecondPast - 1\n        if hasSecondPast == 0 then\n            resetTime = 0\n            hasSecondPast = 20\n        end\n\n        if resetTime >= 4 then\n            referenceTime = getGpsSec()\n            resetTime = 0\n            hasSecondPast = 20\n        end\n    end\nend\n\n",
+      "page": null
+    },
+    "timerCfg": {
+      "0": {
+        "alpha": 1.0,
+        "max": 4000,
+        "min": 0,
+        "mode": 0,
+        "nm": "EngineRPM",
+        "ppr": 1.0,
+        "prec": 0,
+        "speed": 1,
+        "sr": 100,
+        "st": 0,
+        "ut": ""
+      },
+      "1": {
+        "alpha": 1.0,
+        "max": 1000,
+        "min": 0,
+        "mode": 0,
+        "nm": "WheelRPM",
+        "ppr": 20.0,
+        "prec": 0,
+        "speed": 1,
+        "sr": 100,
+        "st": 0,
+        "ut": ""
+      },
+      "2": {
+        "alpha": 1.0,
+        "max": 10000,
+        "min": 0,
+        "mode": 0,
+        "nm": "RPM3",
+        "ppr": 1.0,
+        "prec": 0,
+        "speed": 1,
+        "sr": 0,
+        "st": 0,
+        "ut": ""
+      },
+      "3": {
+        "alpha": 1.0,
+        "max": 8000,
+        "min": 0,
+        "mode": 0,
+        "nm": "RPM4",
+        "ppr": 1.0,
+        "prec": 0,
+        "speed": 1,
+        "sr": 0,
+        "st": 0,
+        "ut": "rpm"
+      }
+    },
+    "trackCfg": {
+      "autoDetect": 0,
+      "rad": 0.0001,
+      "track": {
+        "id": 0,
+        "sec": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ]
+        ],
+        "sf": [
+          0.0,
+          0.0
+        ],
+        "type": 0
+      }
+    },
+    "trackDb": {
+      "size": 1,
+      "tracks": [
+        {
+          "id": 0,
+          "sec": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              3735928559
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ]
+          ],
+          "sf": [
+            0.0,
+            0.0
+          ],
+          "type": 0
+        }
+      ]
+    },
+    "ver": {
+      "bugfix": 1,
+      "fname": "RaceCapture/Apex",
+      "git_info": "2.12.1",
+      "major": 2,
+      "minor": 12,
+      "name": "RC_APEX"
+    },
+    "wifiCfg": {
+      "active": false,
+      "ap": {
+        "active": true,
+        "channel": 11,
+        "encryption": "none",
+        "password": "",
+        "ssid": "RaceCapture/Pro MK2 930"
+      },
+      "client": {
+        "active": false,
+        "password": "",
+        "ssid": ""
+      }
+    }
+  }
+}
